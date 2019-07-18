@@ -1,0 +1,12 @@
+
+- Declare function mostPopularDino() to find the most popular dinosaur
+- Declare variable mostGuests and set starting value to zero
+- Declare variable mostPopular, keep it undefined as we will use
+  it to store the dino object which is most popular
+- For every element (dinosaur) in the dinosaur list
+- Check if the dinosaur's attribute guestsAttractedPerDay is higher
+  than the current value of mostGuests
+- If yes assign mostGuests to be the current dinosaur's guestsAttractedPerDay
+  attribute to be used for next dinosaur's comparison
+- Also assign mostPopular to be the current dinosaur
+- Once the for loop finishes return mostPopular
